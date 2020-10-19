@@ -7,13 +7,6 @@ This is a Telegram URL Upload Bot!
 /help for more details.."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    ABOUT_TEXT = """Hi __{}__,
-    **📝 Language:** Python 3
-    **🧰 Framework:** Pyrogram
-    **👨‍💻 Developer:** [shareads_admin](t.me/shareads_admin)
-    **📮 Channel:** [NS BOT UPDATES](https://t.me/v_bots)
-    **👥 leech_Group:** [V_Leech](https://t.me/joinchat/OrrAak4wsBqS0ctCa3DpnQs)"""
-    
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
     URL | filename | username | password"""
@@ -48,6 +41,13 @@ Expires on: 31/12/2020"""
    DFile  - Give File with Screenshots
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots """
+    
+        ABOUT_TEXT = """Hi __{}__,
+    **📝 Language:** Python 3
+    **🧰 Framework:** Pyrogram
+    **👨‍💻 Developer:** [shareads_admin](t.me/shareads_admin)
+    **📮 Channel:** [NS BOT UPDATES](https://t.me/v_bots)
+    **👥 leech_Group:** [V_Leech](https://t.me/joinchat/OrrAak4wsBqS0ctCa3DpnQs)"""
 
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
