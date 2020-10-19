@@ -74,7 +74,7 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('Admin 👨‍', url='t.me/shareads_admin),
+          InlineKeyboardButton('Admin 👨‍', url='t.me/shareads_admin'),
           InlineKeyboardButton('Filetolink_vbot', url='t.me/filetolink_vbot')
           ]
         ]
