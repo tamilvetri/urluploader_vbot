@@ -4,7 +4,16 @@ This is a Telegram URL Upload Bot!
 
 <b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
 
+
 /help for more details.."""
+    
+    ABOUT_TEXT = """Hi ,
+    **📝 Language:** Python 3
+    **🧰 Framework:** Pyrogram
+    **👨‍💻 Developer:** [shareads_admin](t.me/shareads_admin)
+    **📮 Channel:** [NS BOT UPDATES](https://t.me/v_bots)
+    **👥 leech_Group:** [V_Leech](https://t.me/joinchat/OrrAak4wsBqS0ctCa3DpnQs)"""
+
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
@@ -42,12 +51,7 @@ Expires on: 31/12/2020"""
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots """
     
-        ABOUT_TEXT = """Hi __{}__,
-    **📝 Language:** Python 3
-    **🧰 Framework:** Pyrogram
-    **👨‍💻 Developer:** [shareads_admin](t.me/shareads_admin)
-    **📮 Channel:** [NS BOT UPDATES](https://t.me/v_bots)
-    **👥 leech_Group:** [V_Leech](https://t.me/joinchat/OrrAak4wsBqS0ctCa3DpnQs)"""
+
 
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
@@ -77,3 +81,4 @@ You can use /rename command after receiving file to rename it with custom thumbn
 Free users only 1 request per 30 minutes.
 /upgrade or Try 1800 seconds later."""
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+
