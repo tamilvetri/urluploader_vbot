@@ -11,6 +11,8 @@ logger = logging.getLogger(__name__)
 import os
 import sqlite3
 
+from pyrogram import InlineKeyboardMarkup, InlineKeyboardButton
+
 # the secret configuration specific things
 if bool(os.environ.get("WEBHOOK", False)):
     from sample_config import Config
@@ -67,7 +69,15 @@ async def start(bot, update):
         chat_id=update.chat.id,
         text=Translation.START_TEXT,
         reply_to_message_id=update.message_id
-    )
+        reply_markup=InlineKeyboardMarkup(
+        [
+          [
+          InlineKeyboardButton('Admin 👨‍', url='t.me/shareads_admin),
+          InlineKeyboardButton('Filetolink_vbot', url='t.me/filetolink_vbot')
+          ]
+        ]
+       )
+     )
 
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade"]))
