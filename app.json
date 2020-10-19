@@ -24,23 +24,23 @@
     },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": ""
+      "value": "1385700332:AAFXnkHwwS5HI-F5aYCtJ_O7iFnoZp-IS3M"
     },
     "CHAT_BASE_TOKEN": {
       "description": "Your chat base token, as a string.",
-      "value": ""
+      "value": "ef3c2722-5c75-4c43-96e7-fc4d6101a0fe"
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "1364260"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "900aaa43c519255b239bcba08588dda6"
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "7351948 20516707 23122162 500346573"
+      "value": "985317482"
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
@@ -54,7 +54,7 @@
     },
     "CHUNK_SIZE": {
       "description": "chunk size that should be used with requests",
-      "value": "",
+      "value": "128",
       "required": false
     },
     "HTTP_PROXY": {
