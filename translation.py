@@ -8,15 +8,15 @@ This is a Telegram URL Upload Bot!
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     ABOUT_TEXT = """Hi __{}__,
-**📝 Language:** Python 3
-**🧰 Framework:** Pyrogram
-**👨‍💻 Developer:** [shareads_admin](t.me/shareads_admin)
-**📮 Channel:** [NS BOT UPDATES](https://t.me/v_bots)
-**👥 leech_Group:** [V_Leech](https://t.me/joinchat/OrrAak4wsBqS0ctCa3DpnQs)"""
+    **📝 Language:** Python 3
+    **🧰 Framework:** Pyrogram
+    **👨‍💻 Developer:** [shareads_admin](t.me/shareads_admin)
+    **📮 Channel:** [NS BOT UPDATES](https://t.me/v_bots)
+    **👥 leech_Group:** [V_Leech](https://t.me/joinchat/OrrAak4wsBqS0ctCa3DpnQs)"""
     
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | filename | username | password"""
+    URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_START = "<b>Lets start,📥 Downloading to my server</b>"
     UPLOAD_START = "<b>Downloading complete , 📤 now uploading</b> "
