@@ -228,7 +228,7 @@ async def echo(bot, update):
             str(update.from_user.id) + ".jpg",
             Config.CHUNK_SIZE,
             None,  # bot,
-            Translation.DOWNLOAD_START,
+            Translation.DOWNLOAD_START.format(chat_id, FILE_NAME),
             update.message_id,
             update.chat.id
         )
