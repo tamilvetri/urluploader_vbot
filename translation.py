@@ -12,8 +12,8 @@ This is a Telegram URL Upload Bot!
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
     URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "<b>Lets start,📥 Downloading to my server  </b>\n<b> Your Link :</b> <code>{}</code> \n <b> File Size :</b> <code>{}</code> "
-    UPLOAD_START = "<b>Downloading complete , 📤 now uploading</b> \n <b> File Name :</b> <code>{}</code> \n <b> File Size :</b> <code>{}</code> "
+    DOWNLOAD_START = "<b>Lets start,📥 Downloading to my server  </b>\n<b> Your Link :</b> <code>{}</code> "
+    UPLOAD_START = "<b>Downloading complete , 📤 now uploading</b> \n <b> File Name :</b> <code>{}</code>  "
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "**☑️ file is successfuly UPLOADED Thank you for Using Me 👇 .**"
