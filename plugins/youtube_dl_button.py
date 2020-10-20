@@ -98,7 +98,7 @@ async def youtube_dl_call_back(bot, update):
                 l = entity.length
                 youtube_dl_url = youtube_dl_url[o:o + l]
     await bot.edit_message_text(
-        text=Translation.DOWNLOAD_START.format(youtube_dl_url,await humanbytes(filesize)),
+        text=Translation.DOWNLOAD_START.format(youtube_dl_url),
         chat_id=update.message.chat.id,
         message_id=update.message.message_id
     )
@@ -201,7 +201,7 @@ async def youtube_dl_call_back(bot, update):
             )
             logger.info(images)
             await bot.edit_message_text(
-                text=Translation.UPLOAD_START.format(custom_file_name , await humanbytes(filesize)),
+                text=Translation.UPLOAD_START.format(custom_file_name),
                 chat_id=update.message.chat.id,
                 message_id=update.message.message_id
             )
@@ -259,7 +259,7 @@ async def youtube_dl_call_back(bot, update):
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=(
-                        Translation.UPLOAD_START,
+                        Translation.UPLOAD_START.format(custom_file_name),
                         update.message,
                         start_time
                     )
@@ -275,7 +275,7 @@ async def youtube_dl_call_back(bot, update):
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=(
-                        Translation.UPLOAD_START,
+                        Translation.UPLOAD_START.format(custom_file_name),
                         update.message,
                         start_time
                     )
@@ -290,7 +290,7 @@ async def youtube_dl_call_back(bot, update):
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=(
-                        Translation.UPLOAD_START,
+                        Translation.UPLOAD_START.format(custom_file_name),
                         update.message,
                         start_time
                     )
@@ -310,7 +310,7 @@ async def youtube_dl_call_back(bot, update):
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=(
-                        Translation.UPLOAD_START,
+                        Translation.UPLOAD_START.format(custom_file_name),
                         update.message,
                         start_time
                     )
