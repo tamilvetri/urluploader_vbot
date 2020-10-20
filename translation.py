@@ -1,7 +1,7 @@
 from sample_config import Config
 
 class Translation(object):
-    START_TEXT = """Hi<i><b>{}</b></i>,
+    START_TEXT = """Hi <i><b>{}</b></i>,
 This is a Telegram URL Upload Bot!
 
 <b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
