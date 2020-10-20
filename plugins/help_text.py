@@ -25,6 +25,8 @@ from translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
+myfather = 'https://t.me/{}'.format(Config.USER_NAME[1:])
+
 from helper_funcs.chat_base import TRChatBase
 
 def GetExpiryDate(chat_id):
