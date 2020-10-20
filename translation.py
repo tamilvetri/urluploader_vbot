@@ -7,13 +7,6 @@ This is a Telegram URL Upload Bot!
 
 /help for more details.."""
     
-    ABOUT_TEXT = """Hi ,
-    **📝 Language:** Python 3
-    **🧰 Framework:** Pyrogram
-    **👨‍💻 Developer:** [shareads_admin](t.me/shareads_admin)
-    **📮 Channel:** [NS BOT UPDATES](https://t.me/v_bots)
-    **👥 leech_Group:** [V_Leech](https://t.me/joinchat/OrrAak4wsBqS0ctCa3DpnQs)"""
-
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
