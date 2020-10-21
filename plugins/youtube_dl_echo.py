@@ -21,7 +21,7 @@ else:
     from config import Config
 
 # the Strings used for this "thing"
-from translation import Translation
+from translation import Translation,youtube_dl_button
 
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
