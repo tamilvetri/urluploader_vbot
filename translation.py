@@ -8,7 +8,7 @@ This is a Telegram URL Upload Bot!
     
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    FORMAT_SELECTION = "Select the desired format: \n <b> File Name : </b><code>{}</code>
+    FORMAT_SELECTION = "Select the desired format: \n <b> File Name : </b><code>{}</code>"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
     URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
