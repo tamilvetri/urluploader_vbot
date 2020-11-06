@@ -236,9 +236,8 @@ async def echo(bot, update):
         await bot.send_message(
             chat_id=update.chat.id,
             text=Translation.FORMAT_SELECTION.format(thumbnail) + "\n" + (custom_file_name)
-            
-            parse_mode="html",
-            reply_to_message_id=update.message_id
+            chat_id=update.message.chat.id,
+            message_id=update.message.message_id
         )
     else:
         # fallback for nonnumeric port a.k.a seedbox.io
