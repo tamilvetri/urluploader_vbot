@@ -234,11 +234,17 @@ async def echo(bot, update):
         )
         await bot.send_message(
             chat_id=update.chat.id,
-            text=Translation.FORMAT_SELECTION.format(thumbnail)+ (custom_file_name),
+            text=Translation.FORMAT_SELECTION.format(thumbnail) + "\n" + Translation.WINNER_VETRI,
             reply_markup=reply_markup,
             parse_mode="html",
             reply_to_message_id=update.message_id
         )
+        await bot.edit_message_text(
+            text=Translation.WINNER_VETRI.format(custom_file_name),
+            chat_id=update.message.chat.id,
+            message_id=update.message.message_id
+        )    
+            
     else:
         # fallback for nonnumeric port a.k.a seedbox.io
         inline_keyboard = []
@@ -259,7 +265,7 @@ async def echo(bot, update):
         reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
         await bot.send_message(
             chat_id=update.chat.id,
-            text=Translation.FORMAT_SELECTION.format("")+(custom_file_name),
+            text=Translation.FORMAT_SELECTION.format("")+,
             reply_markup=reply_markup,
             parse_mode="html",
             reply_to_message_id=update.message_id
