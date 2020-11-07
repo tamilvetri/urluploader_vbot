@@ -258,8 +258,9 @@ async def echo(bot, update):
         ])
         reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
         await bot.send_message(
+        await bot.send_message(
             chat_id=update.chat.id,
-            text=Translation.FORMAT_SELECTION.format(""),
+            text=Translation.FORMAT_SELECTION.format(thumbnail) + "\n" + Translation.SET_CUSTOM_USERNAME_PASSWORD,
             reply_markup=reply_markup,
             parse_mode="html",
             reply_to_message_id=update.message_id
